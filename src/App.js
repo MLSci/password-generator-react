@@ -48,7 +48,7 @@ function App() {
 
   return (
     <div className='container'>
-      <h2>Password Generator</h2>
+      <h2>Strong Password Generator</h2>
       <div className='password-field'>
         <span id='password'>{password}</span>
         <button className='btn' id='clipboard' title='Copy' onClick={copyPassword}>
@@ -83,7 +83,7 @@ function App() {
         </div>
       </div>
       <button className='btn' id='generate' onClick={generatePassword}>
-        Generate Password
+        Generate Password and Copy
       </button>
     </div>
   );
